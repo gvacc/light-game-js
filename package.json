@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dist": "npx wepback",
+    "watch": "npx webpack -e",
     "dev": "npx webpack-dev-server"
   },
   "keywords": [],
