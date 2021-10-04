@@ -40,7 +40,6 @@ export class Screen {
     }
 
 	drawImage(x, y, imageName) {
-		console.log(this.images[imageName])
         this.context.drawImage(this.images[imageName], x, y);
     }
 }
